@@ -1,5 +1,6 @@
 class Solution {
     public String reverseWords(String s) {
+        //Split the string and stack them.
         String[] splits = s.trim().split(" ");
         Stack<String> stack = new Stack<>();
         for(String word:splits) {
